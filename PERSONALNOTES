@@ -1,0 +1,8 @@
+color pallett:
+    tan - F2EFEA
+    purple - C98EAD
+    pink - FB66FF
+    grey - 7A7C83
+    blue - 3B6BA9
+
+if the mark/highlight is weird, check the bootstrap.min.css and change background color back to fcf8e3

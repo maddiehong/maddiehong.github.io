@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "name": "gatsby-clean-portfolio",
+  "description": null,
+  "icons": {
+    "60": "/icons-96844bf95b3054eaae166deec7d0d246/firefox_app_60x60.png",
+    "128": "/icons-96844bf95b3054eaae166deec7d0d246/firefox_app_128x128.png",
+    "512": "/icons-96844bf95b3054eaae166deec7d0d246/firefox_app_512x512.png"
+  },
+  "developer": {
+    "name": "Maddie Hong",
+    "url": null
+  }
+}

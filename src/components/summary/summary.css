@@ -1,0 +1,33 @@
+.hover_effect_PB{
+  color: #FB66FF;
+}
+
+.hover_effect_PB:hover {
+  color: #3B6BA9;
+}
+
+.content {
+  margin-bottom: 2.5rem;
+}
+
+.tech_icons i {
+  font-size: 5rem;
+}
+
+.tech_icons span {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 450px) {
+  .tech_icons i {
+    font-size: 4.5rem;
+  }
+
+  .tech_icons span {
+    font-size: 1.3rem;
+  }
+
+  .goal_text {
+    font-size: 1.4rem;
+  }
+}
