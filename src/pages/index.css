@@ -10,6 +10,26 @@
   color: #7A7C83;
 }
 
+.purple{
+  color: #C98EAD;
+  font-family:"Caveat", serif;
+  font-size: 3rem;
+}
+
+.purpleref{
+  color: #C98EAD;
+  font-family:"Caveat", serif;
+  font-size: 3rem;
+}
+
+a{
+  color:#FB66FF;
+}
+
+a:hover{
+  color:#3B6BA9;
+}
+
 h1 {
   line-height: 125%;
   color: #F2EFEA;
@@ -23,7 +43,7 @@ h1 span {
 }
 
 h4 {
-  line-height: 125%;
+  line-height: 25;
   color: #3B6BA9;
   font-family:"Montserrat", sans-serif;
   padding-top:2.5rem;
@@ -32,7 +52,7 @@ h4 {
 
 
 mark{
-   background-color:#F2EFEA;
+   background-color:transparent !important;
    color: #FB66FF;
 }
 
@@ -51,8 +71,19 @@ mark{
   .social_icon{
     font-size: 1.4rem;
   }
-}
 
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  h4 {
+    font-size: .875rem;
+  }
+
+  p {
+    font-size: 1.25rem;
+  }
+}
 
 #cursor {
   content: '';

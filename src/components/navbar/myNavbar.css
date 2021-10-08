@@ -4,6 +4,34 @@
   border-color: #FB66FF;
   width: 100%;
 }
+/*
+.variant-light{
+  color: #7A7C83 !important;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.variant-light:hover{
+  color: #FB66FF !important;
+}
+
+.variant-light:active{
+  color: #FB66FF !important;
+}
+*/
+.active{
+      color: #FB66FF !important;
+}
+
+.nav-link{
+      font-family: "Montserrat", sans-serif  !important;
+      font-size: 1.5rem !important;
+      margin-left: 1rem !important;
+      padding-top: 40px !important;
+}
+
+ .nav-link:hover{
+      color: #FB66FF !important;
+    }
 
 .nav_styles {
   padding: 0;

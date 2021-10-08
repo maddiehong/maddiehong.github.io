@@ -1,3 +1,20 @@
+.myRow{
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.bigger{
+  margin-bottom: -1rem;
+  color:#3B6BA9;
+  font-family: "Caveat", serif;
+  font-size: 1.75rem;
+}
+
+.smaller{
+  font-family: "Caveat", serif;
+  font-size: 1rem;
+  text-align: right;
+}
+
 .hover_effect_PB{
   color: #FB66FF;
 }
@@ -17,6 +34,7 @@
 .tech_icons span {
   font-size: 1.5rem;
 }
+
 
 @media (max-width: 450px) {
   .tech_icons i {

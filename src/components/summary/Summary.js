@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 
 import { Container, Row, Col } from "react-bootstrap"
 
-import profile from "../../images/portfolio/Profile1.png"
+import profile from "../../images/portfolio/Profile3.png"
 
 import "../../fontawesome/css/all.min.css"
 
@@ -34,52 +34,71 @@ const Summary = () => (
     </Row>
     <br />
     */}
-    <Row>
+    <Row className="myRow" >
       <h4 className="goal_text text-center">
-       
+
       </h4>
       <br />
-      <Col>
+      <Col className="my-auto" data-sal="flip-up" data-sal-delay="500" data-sal-duration="2000"
+  data-sal-easing="ease-out-back">
         <div>
           <img src={profile} className = "img-fluid" alt="profilephoto" imageresize="contain" width={400} height={450}/>
         </div>
       </Col>
-      <Col>
-        <h3> I am a... </h3>
-        <br/>
-        <ul>
-          <li> filmmaker </li>
-          <li> editor </li>
-          <li> performing artist </li>
-          <li> designer </li>
-          <li> creative coder </li>
-          <li> constant learner </li>
-        </ul>
-        <h4 className="goal_text text-justify"> My goal is to throw what I can out there, constantly be creating, and increasingly making bold work that reflects an ever-changing world.
+      <Col className="my-auto" data-sal="fade" data-sal-delay="500" data-sal-duration="1000"
+  data-sal-easing="ease">
+        <Row>
+          <h4> I am a : </h4>
+        </Row>
+        <Row>
+          <Col>
+            <ul className="bigger">
+              <li> &#123; filmmaker </li>
+              <li> performing artist </li>
+              <li> designer </li>
+            </ul>
+          </Col>
+          <Col>
+            <ul className="bigger">
+              <li> creative coder </li>
+              <li> tinkerer </li>
+              <li> constant learner&#125;</li>
+            </ul>
+          </Col>
+        </Row>
+        <h4 className="text-justify"> I believe in reflecting on our past to envision a better future. Combining storytelling with technology makes that future a reality.
         </h4>
       </Col>
     </Row>
 
-    
+
     <hr/>
-    <h3>Tools I'm working with right now</h3>
+    <Row className="myRow">
+      <h3 data-sal="fade" data-sal-delay="500" data-sal-duration="1000"
+  data-sal-easing="ease">These are some of the tools I'm using right now</h3>
+    </Row>
+    <Row>
+      <div className="smaller" data-sal="slide-up" data-sal-delay="1000" data-sal-duration="2000"
+  data-sal-easing="ease-out-back">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+    </Row>
     <br />
-    <Row className="text-center tech_icons">
+    <Row className="text-center tech_icons" data-sal="flip-up" data-sal-delay="500" data-sal-duration="2000"
+  data-sal-easing="ease-out-back">
       <Col>
-          <Link to="/film">
-             <i className="fab fa-adobe hover_effect_PB" style={{marginBottom:"2rem"}}/> 
+          <Link to="/art">
+             <i className="fab fa-adobe hover_effect_PB" style={{marginBottom:"2rem"}}/>
           </Link>
         <br />
         {/*<span>Adobe Creative Cloud</span>*/}
       </Col>
       <Col>
-        <Link to="/film">
+        <Link to="/art">
         <i className="fas fa-vr-cardboard hover_effect_PB" />
         </Link>
         <br />
       </Col>
       <Col>
-        <Link to="/film">
+        <Link to="/art">
         <i className="fab fa-vimeo hover_effect_PB" />
         </Link>
         <br />
@@ -91,7 +110,8 @@ const Summary = () => (
         <br />
       </Col>
     </Row>
-    <Row className="text-center tech_icons">
+    <Row className="text-center tech_icons myRow" data-sal="flip-up" data-sal-delay="500" data-sal-duration="2000"
+  data-sal-easing="ease-out-back">
       <Col>
         <Link to="/code">
         <i className="fab fa-js hover_effect_PB" />
@@ -118,13 +138,17 @@ const Summary = () => (
       </Col>
     </Row>
     <br />
-    <h3>This list is constantly changing! Have a suggestion for me?</h3>
-    <h4>         Let's chat{" "}
-        <a href="mailto:maddiehmhong@gmail.com">
-          <span>maddiehmhong@gmail.com</span>
-        </a> </h4>
-
+    <Row data-sal="fade" data-sal-delay="500" data-sal-duration="1000"
+  data-sal-easing="ease">
+      <h3>Just like me (and this website) this list is a work in progress <br/> <br/>Have a suggestion for me?</h3>
+      <h4>         Let's chat{" "}
+          <a className="hover_effect_PB" href="mailto:hello@maddiehong.me">
+            <span>hello@maddiehong.me</span>
+          </a> </h4>
+    </Row>
+    <br/>
   </Container>
+
 )
 
 export default Summary

@@ -21,7 +21,7 @@ const MyJumbo = props => (
         <p>{props.body}</p>
       </span>
       <span>
-        <p>{props.body2}</p>
+        <p className="smaller">{props.body2}</p>
       </span>
       {/*<SocialRow />*/}
     </div>

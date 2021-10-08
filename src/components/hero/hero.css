@@ -1,3 +1,5 @@
+
+
 a{
   font-size: "1.3rem";
   color: #FB66FF;
@@ -12,7 +14,7 @@ a:hover {
 }
 
 .jumbo {
-  height: 80vh;
+  height: 100%;
 }
 
 .jumbo h1 {
@@ -39,7 +41,6 @@ a:hover {
   color: #7A7C83;
 }
 .jumbo_content {
-  margin-top: 6.5rem;
   margin-bottom: 6rem;
   width: 100%;
 }

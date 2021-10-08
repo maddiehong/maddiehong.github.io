@@ -1,6 +1,6 @@
 .project_container {
   border-style: solid;
-  border-color: #F2EFEA;
+  border-color: transparent;
   border-radius: 0.3rem;
   padding-top: 0.4rem;
   padding-left: 0.4rem;
@@ -8,6 +8,18 @@
   padding-bottom: 0.4rem;
   margin-bottom: 2rem;
   width: 100%;
+  height: 25rem;
+}
+
+.title{
+  margin-top:0;
+  padding-top:0;
+  font-size:1.75rem;
+}
+.highlight{
+  color: #C98EAD;
+  font-family:"Caveat", serif;
+  font-size:1.25rem;
 }
 
 .underline {
@@ -24,7 +36,7 @@ h4 small {
 }
 
 a {
-  color: blueviolet;
+  color: #7A7C83;
 }
 
 a:link {
@@ -36,7 +48,7 @@ a:link:hover {
 }
 
 a:hover {
-  color: black;
+  color: #FB66FF;
 }
 
 .button_styles {

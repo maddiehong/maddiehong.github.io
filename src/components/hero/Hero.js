@@ -8,10 +8,12 @@ import SocialRow from "../SocialRow/SocialRow"
 const Hero = () => (
   <Jumbotron style={jumbo_styles} className="jumbo" fluid>
     <div className="jumbo_content">
-      <h1><span>My name is Maddie <span id="cursor"/></span></h1>
+      <h1 data-sal="fade" data-sal-delay="500" data-sal-duration="1000"
+  data-sal-easing="ease"><span>My name is Maddie <span id="cursor"/></span></h1>
       <br />
-      <h3>
-        I explore stories and tech and what they say about humans.
+      <h3  data-sal="fade" data-sal-delay="500" data-sal-duration="1000"
+  data-sal-easing="ease">
+        I explore what <span className="purple"> stories </span> and <span className="purple"> tech </span>  say about <span className="purple"> humans </span>
       </h3>
     </div>
   </Jumbotron>

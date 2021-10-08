@@ -15,22 +15,23 @@ import MyButton from "../myButton/MyButton"
 const ProjectCard = props => {
   return (
     <div className="project_container">
-      <Row>
-        <Col>
+      <Row className = "align-items-center">
+        <Col className = "align-items-center">
           <img
             src={props.imageSrcPath}
             alt={"Smiley face"}
             style={{ maxWidth: "100%" }}
           />
         </Col>
-        <Col>
-          <h4>
+        <Col className = "align-top">
+          <h4 className="title">
             {props.title}
             <br />
             <small>{props.date}</small>
           </h4>
 
           <p>{props.description}</p>
+          <p> <span className="highlight"> ASK ME ABOUT: </span>{props.askme}</p>
 
           <Row>
             <MyButton text={props.button1} URL={props.sourceURL} />

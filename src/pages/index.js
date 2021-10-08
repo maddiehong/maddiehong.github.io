@@ -15,8 +15,8 @@ export default () => (
   <div className="App">
     <Layout>
       <Hero />
-      <hr />
-      <Summary />
+      <hr/>
+      <Summary/>
       {/*<hr />
       <Projects />
       <hr />*/}

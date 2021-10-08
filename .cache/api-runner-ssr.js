@@ -1,9 +1,6 @@
 var plugins = [{
       plugin: require('/Users/maddiehong/Website/CurrentPortfolio/node_modules/gatsby-plugin-favicon/gatsby-ssr'),
-      options: {"plugins":[],"logo":"./src/favicon.png","appName":null,"appDescription":null,"developerName":"Maddie Hong","developerURL":null,"dir":"auto","lang":"en-US","background":"#fff","theme_color":"#fff","display":"standalone","orientation":"any","start_url":"/?homescreen=1","version":"1.0"},
-    },{
-      plugin: require('/Users/maddiehong/Website/CurrentPortfolio/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
-      options: {"plugins":[],"trackingId":"UA-XXXXXXXXX-X"},
+      options: {"plugins":[],"logo":"./src/favicon.png","appName":null,"appDescription":"hi, welcome to my website","developerName":"Maddie Hong","developerURL":null,"dir":"auto","lang":"en-US","background":"#fff","theme_color":"#fff","display":"standalone","orientation":"any","start_url":"/?homescreen=1","version":"1.0"},
     },{
       plugin: require('/Users/maddiehong/Website/CurrentPortfolio/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},

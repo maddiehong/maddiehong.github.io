@@ -10,12 +10,10 @@ import gatsbylogo from "../../images/gatsbylogo.png"
 
 const Footer = () => (
   <Jumbotron fluid style={footer_styles}>
-    <Container style={{ maxWidth: "960px" }}>
+    <Container style={{ maxWidth: "960px", paddingLeft:"2rem", paddingRight:"2rem"}}>
       <Row>
         <Col>
-            <a href = "MAILTO:maddiehmhong@gmail.com" 
-            target="_blank"
-            rel="noopener noreferrer">
+            <a href = "MAILTO:hello@maddiehong.me">
             <span className="hover_effect" style={{ fontSize: "1.3rem" }}>Free for a coffee, tea, or chat anytime.</span>
             </a>
           {/*<br />*/}
@@ -73,16 +71,25 @@ const Footer = () => (
             <i className="fab fa-github hover_effect" />
           </a>
         </Col>
+                <Col>
+                  <a
+                    href="https://vimeo.com/maddiehong"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i className="fab fa-vimeo hover_effect" />
+                  </a>
+                </Col>
       </Row>
       <Row className="text-center" style={{ marginTop: "1.5rem" }}>
         <Col>
-          Maddie Hong © {new Date().getFullYear()}, Built with
+          <span style={{fontSize: "1rem"}}> Maddie Hong © {new Date().getFullYear()}, Built with </span>
           <span
             className="fas fa-mug-hot"
             style={{
               marginLeft: "10px",
               marginRight: "3px",
-              fontSize: "1.5rem",
+              fontSize: "1rem",
             }}
           />
           &nbsp; & 
@@ -90,9 +97,9 @@ const Footer = () => (
             style={{
               marginLeft: "10px",
               marginRight: "3px",
-              fontSize: "1.5rem",
+              fontSize: "1rem",
             }}>
-            <img src={gatsbylogo} alt="gatsby" imageresize="contain" width={25} height={25} />
+            <img src={gatsbylogo} alt="gatsby" imageresize="contain" width={15} height={15} />
            </span>
           
         </Col>

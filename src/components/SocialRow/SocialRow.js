@@ -18,7 +18,7 @@ const socialRow = props =>  (
     <Col>
       <a
         style={{ color:props.color }}
-        href="https://www.linkedin.com//in/maddie-hong-289039114/"
+        href="https://www.linkedin.com//in/maddiehong/"
         target="_blank"
         rel="noopener noreferrer"
       >

@@ -2,11 +2,12 @@ module.exports = {
   siteMetadata: {
     title: `Maddie Hong Portfolio`,
     description: `Storyteller | Designer | Coder `,
-    url: "https://maddiehong.github.io",
+    url: "https://maddiehong.me",
     twitterUsername: "@hmdehong",
     author: `@hmdehong`,
   },
   plugins: [
+    `gatsby-plugin-scroll-reveal`,
     {
       resolve: `gatsby-plugin-favicon`,
       options: {
@@ -14,7 +15,7 @@ module.exports = {
 
         // WebApp Manifest Configuration
         appName: null, // Inferred with your package.json
-        appDescription: null,
+        appDescription: "hi, welcome to my website",
         developerName: "Maddie Hong",
         developerURL: null,
         dir: "auto",
@@ -27,13 +28,13 @@ module.exports = {
         version: "1.0",
       },
     },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
+    //{
+      //resolve: `gatsby-plugin-google-analytics`,
+      //options: {
         //Replace "UA-XXXXXXXXX-X" with your own Tracking ID
-        trackingId: "UA-XXXXXXXXX-X",
-      },
-    },
+       // trackingId: "UA-XXXXXXXXX-X",
+     // },
+    //},
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
